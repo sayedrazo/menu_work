@@ -1,0 +1,58 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+.logo {
+    float: left;
+    width: 20%;
+}
+
+.main-menu {
+    max-width: 80%;
+    float: right;
+}
+
+.main-menu ul {
+    float: right;
+}
+
+.main-menu ul li {
+    list-style: none;
+    display: initial;
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: sans-serif;
+    display: inline-block;
+    padding: 20px;
+    color: #333;
+    transition: .3s;
+}
+
+.logo img {
+    min-width: 100%;
+}
+.main-menu ul li:last-child a{
+    padding-right: 0;
+}
+.main-menu ul li:first-child a{
+    color: #C5193D;
+
+}
+.main-menu ul li:hover a{
+    color: #C5193D;
+    letter-spacing: 1px;
+}
+
+
